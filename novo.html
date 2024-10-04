@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Galeria de Mídias</title>
+</head>
+<body>
+    <div class="gallery">
+        <img src="imagem1.jpg" onclick="openModal('imagem1.jpg')" />
+        <img src="imagem2.jpg" onclick="openModal('imagem2.jpg')" />
+        <!-- Adicione mais imagens ou vídeos -->
+    </div>
+
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage" />
+    </div>
+
+    <script>
+        function openModal(src) {
+            document.getElementById("modal").style.display = "block";
+            document.getElementById("modalImage").src = src;
+        }
+
+        function closeModal() {
+            document.getElementById("modal").style.display = "none";
+        }
+    </script>
+</body>
+</html>
