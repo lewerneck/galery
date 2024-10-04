@@ -36,6 +36,7 @@ h1 {
   object-fit: cover;
   border-radius: 8px;
   transition: transform 0.2s;
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
 .photo-gallery img:hover {
