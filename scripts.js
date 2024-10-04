@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Lista de URLs de imagens fictícias (substitua pelas suas imagens)
   const photos = [
-    'https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png',  // Ícone de usuário
+  'https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png',  // Ícone de usuário
   'https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png', // Imagem PNG transparente
   'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Example.jpg/640px-Example.jpg', // Foto de exemplo
   'https://upload.wikimedia.org/wikipedia/commons/1/1e/Stonehenge.JPG',  // Stonehenge
